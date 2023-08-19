@@ -25,16 +25,16 @@ Michelle Dsouza (22112022)
 
 
 
-Movie Ticket Booking and Management Application
+# Movie Ticket Booking and Management Application
 With the help of a python code, an application is created that stimulates a movie booking system. Through this application the user can book movie tickets along with personalized preferences from the given available movies. This code gives an easy understanding of how the ticket booking system is managed in order to make the process less complicated for the user. By importing CSV the data collected is stored in a structured format making it easy for accessing.
 
-Here is a detailed documentation of the code:
+# Here is a detailed documentation of the code:
 
 
-Dependencies
+# Dependencies
 The code uses the built-in csv module
 
-Reflection
+# Reflection
 
 Based on the provided code, here is a breakdown of the requirements for a movie ticket booking system:
 
@@ -54,17 +54,17 @@ Based on the provided code, here is a breakdown of the requirements for a movie 
 •	After a successful booking, the system confirms the booking, displays the booking details.
 
 
-Functionality of each module and class
+# Functionality of each module and class
 
 1. Movie Class:
-•	The Movie class represents a movie and has the following attributes:
-	Sr_no: The serial number of the movie.
-	title: The title of the movie.
-	duration: The duration of the movie.
-	genre: The genre of the movie.
-	time_slots: The available time slots for the movie.
-	available_seats: The number of available seats for the movie.
-•	The Movie class has a constructor method (__init__) that initializes these attributes.
+    •	The Movie class represents a movie and has the following attributes:
+      	Sr_no: The serial number of the movie.
+      	title: The title of the movie.
+      	duration: The duration of the movie.
+      	genre: The genre of the movie.
+      	time_slots: The available time slots for the movie.
+      	available_seats: The number of available seats for the movie.
+    •	The Movie class has a constructor method (__init__) that initializes these attributes.
 
 2. Booking Class:
 •	The Booking class represents a booking and has the following attributes:
@@ -113,5 +113,5 @@ Functionality of each module and class
 •	Displays the booking details and confirmation message.
 
 
-SUMMARY:
+# SUMMARY:
 The Python code is implemented as a console-based application. It interacts with the user through the command line interface (CLI) by displaying options and taking input from the user. The application allows users to select a movie from the given available movies, Enter customer name, Enter a movie title, Enter time slot, Enter no. of Tickets, selection of seats to an Excel file. The code is well-commented to explain the functionality of each component.
